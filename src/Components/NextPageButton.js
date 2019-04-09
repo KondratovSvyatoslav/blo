@@ -1,7 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const nextPageButton = (props) => {
-    return <button className="nextPageButton">{props.children}</button>
+
+    return (
+        <div>
+            <button className={props.previous} onClick={props.click}>Previous</button>
+            <button className={props.next} onClick= {props.click}>Next</button>
+        </div>
+    )
 }
 
 export default nextPageButton
