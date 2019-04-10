@@ -1,0 +1,13 @@
+.comments {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.comments-component {
+    text-align: center;
+}
+
+.comments-input {
+    text-align: center;
+    width: 100%;
+}

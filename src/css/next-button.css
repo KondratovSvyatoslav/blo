@@ -1,0 +1,15 @@
+.active {
+    width:50%;
+    border: 1px solid deepskyblue;
+    color: black;
+}
+.passive {
+    width:50%;
+    border: 1px solid deepskyblue;
+    color: black;
+    background: #cccccc;
+}
+
+.button {
+    text-align: center;
+}

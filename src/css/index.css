@@ -13,26 +13,3 @@ code {
     monospace;
 }
 
-.Person {
-  text-align: center;
-  border: 1px solid #ccc;
-  width: 100%;
-  margin: auto;
-  padding-top: 10px ;
-}
-.Person img {
-  width: 10%;
-  height: 10%;
-}
-
-.active {
-  width:50%;
-  border: 1px solid deepskyblue;
-  color: black;
-}
-.passive {
-  width:50%;
-  border: 1px solid deepskyblue;
-  color: black;
-  background: #cccccc;
-}

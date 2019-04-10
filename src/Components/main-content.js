@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './../logo.svg';
+import '../css/main-content.css'
 
 function firstPageContent() {
     const firstParagraph = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et\n' +
@@ -55,7 +56,7 @@ function thirdPageContent() {
     return [firstParagraph]
 }
 
-const Person = (props) => {
+const MainContent = (props) => {
     let fp, sp, tp
     switch (props.page) {
         case 1:
@@ -82,9 +83,8 @@ const Person = (props) => {
             <p>{sp}</p>
             <p>{tp}</p>
             <p>{props.page}</p>
-            <p>{props.button}</p>
         </div>
     )
 }
 
-export default Person
+export default MainContent
